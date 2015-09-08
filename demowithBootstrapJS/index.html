@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="utf-8">
+		<title>Search Result Tablr Example</title>
+		<link rel="stylesheet" href="public/bootstrap-3.1.1.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script  type="text/javascript" src="public/jquery-1.11.1.min.js"></script>
+		<script  type="text/javascript" src="public/dropdown.js"></script>
+		<script  type="text/javascript" src="public/collapse.js"></script>
+	</head>
+	<body ng-controller="appCtrl">
+		<div class="container">
+			<div class="main">
+				<h3>Nav</h3>
+				<nav class="navbar navbar-inverse" role="navigation">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Quotes <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#">All</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Forms <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#">Quote Request</a></li>
+										<li><a href="#">Drafts</a></li>
+										<li><a href="#">Signed Quotes</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#">Directors and Officers</a></li>
+										<li><a href="#">Employment Practices Liability</a></li>
+										<li><a href="#">Professional Indemnity</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<hr>
+				<h3>Search Result List</h3>
+				<div class="table-responsive table-bordered table-wrapp">
+					<table class="table table-striped table-hover c-table">
+						<colgroup  width="3%" />
+						<colgroup width="6%" />
+						<colgroup width="15%" />
+						<colgroup width="10%" />
+						<colgroup span="9" width="7%" />
+						<colgroup width="3%" />
+						<thead class="t-stripped-head">
+							<tr>
+								<th class="small-width-col">Selected</th>
+								<th>Type (icon)</th>
+								<th>Document title</th>
+								<th>Document ID</th>
+								<th>Context data 1</th>
+								<th>Context data 2</th>
+								<th>Context data 3</th>
+								<th>Version</th>
+								<th>Last modified by (user avatar)</th>
+								<th>Last modified date</th>
+								<th>Created by</th>
+								<th>Created date</th>
+								<th>Owner</th>
+								<th class="small-width-col">Actions</th>
+							</tr>
+						</thead>
+						<tbody class="t-stripped-body">
+							<tr ng-repeat="form in formList">
+								<td>
+									<input class="btn btn-default btn-sm" type="checkbox" value="View Draft"/>
+								</td>
+								<td><small>{{form._source.docType}}</small></td>
+								<td class="title">
+									<div class="tooltip-cell">
+										<small><span data-tooltip={{form._source.id}}>{{form._source.id}}</span></small>
+									</div>
+								</td>
+								<td>
+									<div class="tooltip-cell">
+										<small><span data-tooltip={{form._source.title}}>{{form._source.title}}</span></small>
+									</div>
+								</td>
+								<td><small></small></td>
+								<td><small></small></td>
+								<td><small></small></td>
+								<td><small>{{form._source.version}}</small></td>
+								<td><small>Name and Avatar</small></td>
+								<td><small>{{form._source.lastModifiedDate + ' ' + form._source.lastModifiedTime}}</small></td>
+								<td><small>Name and Avatar</small></td>
+								<td><small>{{form._source.dateCreated + ' ' + form._source.timeCreated}}</small></td>
+								<td class="title"><div><small><span data-tooltip={{form._source.createdBy}}>{{form._source.createdBy}}</span></small></div></td>
+								<td><small></small></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<script  type="text/javascript" src="public/angular-1.2.15.min.js"></script>
+
+
+		<script type="text/javascript">
+			$('.dropdown-toggle').dropdown();
+		</script>
+
+		<script type="text/javascript">
+
+		angular.module('app',[]);
+
+		function appCtrl($scope,$http){
+			$http.get('json/example.json').success(function (data) {
+				console.log(data.hits.hits);
+				$scope.formList = data.hits.hits;
+			});
+		}
+
+		</script>
+	</body>
+</html>

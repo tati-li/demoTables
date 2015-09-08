@@ -1,0 +1,45 @@
+.c-table {
+	table-layout: fixed;
+	font-size: 12px;
+}
+.c-table small {
+	font-size: 90%;
+}
+.small-width-col {
+	transform: rotate(270deg) translate(-30px, -30px);
+}
+.tooltip-cell {
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.c-table td {
+	position: relative;
+	vertical-align: middle!important;
+}
+[data-tooltip]::after {
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	color: #FFF;
+	content: attr(data-tooltip);
+	padding: 4px 8px;
+	position: absolute;
+	top: 15px;
+	left: 50px;
+	white-space: normal;
+	display: none;
+	z-index: 999;
+	min-width: 180px;
+}
+[data-tooltip]:hover::after {
+	display: block;
+}
+@media (max-width: 1199px) {
+	.table-wrapp {
+		overflow-x: auto;
+	}
+	.table-wrapp .c-table {
+		min-width: 1140px;
+	}
+}

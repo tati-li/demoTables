@@ -1,0 +1,381 @@
+{
+   "took": 11,
+   "timed_out": false,
+   "_shards": {
+      "total": 5,
+      "successful": 5,
+      "failed": 0
+   },
+   "hits": {
+      "total": 14,
+      "max_score": null,
+      "hits": [
+         {
+            "_index": "joe.broker.com",
+            "_type": "documents",
+            "_id": "Test User Save For Updatejoe@broker.com520ec068-cb68-4a32-bd63-29ca59535f3c.2",
+            "_score": null,
+            "_source": {
+               "docType": "Video",
+               "path": "joe.broker.com/Home/Drafts",
+               "lastModifiedDateTime": "2014-08-25T16:46:30",
+               "lastModifiedDate": "2014-08-25",
+               "lastModifiedTime": "16:46:30",
+               "dateTimeCreated": "2014-08-25T16:46:29",
+               "dateCreated": "2014-08-25",
+               "timeCreated": "16:46:30",
+               "objectTypeName": 0,
+               "objectType": null,
+               "viewType": null,
+               "formType": null,
+               "id": "Test User Save For Updatejoe@broker.com520ec068-cb68-4a32-bd63-29ca59535f3c.2",
+               "title": "Test User Save For Update",
+               "version": 2,
+               "updatedBy": "joe@broker.com",
+               "createdBy": "joe@broker.com",
+               "referencesEntities": null,
+               "category": null,
+               "documentType": null,
+               "deletedYN": false,
+               "objectTypeStatus": "draft",
+               "workFlowTrace": null,
+               "versionSeriesId": "Test User Save For Updatejoe@broker.com520ec068-cb68-4a32-bd63-29ca59535f3c",
+               "isLatestVersion": true
+            },
+            "sort": [
+               1408985189000
+            ]
+         },
+         {
+            "_index": "joe.broker.com",
+            "_type": "documents",
+            "_id": "WorkflowUnitTest SaveDraft Testjoe@broker.com7f93badb-4faf-4e40-b5da-b2c8107bd3d9.1",
+            "_score": null,
+            "_source": {
+               "docType": "Form",
+               "path": "joe.broker.com/Home/Drafts",
+               "lastModifiedDate": "2014-08-22",
+               "dataTimeCreated": null,
+               "objectTypeName": 0,
+               "objectType": "JsonDocument",
+               "viewType": "form",
+               "formType": null,
+               "id": "WorkflowUnitTest SaveDraft Testjoe@broker.com7f93badb-4faf-4e40-b5da-b2c8107bd3d9.1",
+               "title": "WorkflowUnitTest SaveDraft Test",
+               "version": 1,
+               "updatedBy": "joe@broker.com",
+               "createdBy": "joe@broker.com",
+               "referencesEntities": null,
+               "category": [],
+               "documentType": null,
+               "deletedYN": false,
+               "workFlowTrace": [
+                  {
+                     "workFlowId": "joe@broker.com9cbfb09a-6578-485e-98be-cd3db6119267.1",
+                     "workFlowStatus": 1
+                  }
+               ],
+               "dateTimeCreated": "2014-08-22T08:27:18",
+               "lastModifiedDateTime": "2014-08-22T08:27:18",
+               "dateCreated": "2014-08-22",
+               "timeCreated": "08:27:18",
+               "lastModifiedTime": "08:27:18",
+               "objectTypeStatus": "draft",
+               "versionSeriesId": "WorkflowUnitTest SaveDraft Testjoe@broker.com7f93badb-4faf-4e40-b5da-b2c8107bd3d9",
+               "isLatestVersion": true
+            },
+            "sort": [
+               1408696038000
+            ]
+         },
+         {
+            "_index": "joe.broker.com",
+            "_type": "documents",
+            "_id": "Camargue Professional Indemnity Quote Request Form for Accountantsjoe@broker.com58504f5d-e403-4613-8aa1-3e3965dfb213.1",
+            "_score": null,
+            "_source": {
+               "objectTypeName": "QuoteRequestForm",
+               "objectTypeStatus": "draft",
+               "objectType": "JsonDocument",
+               "viewType": "form",
+               "id": "Camargue Professional Indemnity Quote Request Form for Accountantsjoe@broker.com58504f5d-e403-4613-8aa1-3e3965dfb213.1",
+               "lastModifiedDateTime": "2014-08-21T13:09:11",
+               "dateTimeCreated": "2014-08-21T13:09:11",
+               "createdBy": "joe@broker.com",
+               "updatedBy": "joe@broker.com",
+               "version": 1,
+               "title": "Camargue Professional Indemnity Quote Request Form for Accountants",
+               "docType": "Form",
+               "path": "joe.broker.com/Home/Drafts",
+               "referencedEntities": [],
+               "category": [],
+               "versionSeriesId": "Camargue Professional Indemnity Quote Request Form for Accountantsjoe@broker.com58504f5d-e403-4613-8aa1-3e3965dfb213",
+               "dateCreated": "2014-08-21",
+               "timeCreated": "13:09:11",
+               "lastModifiedDate": "2014-08-21",
+               "lastModifiedTime": "13:09:11",
+               "isLatestVersion": true
+            },
+            "sort": [
+               1408626551000
+            ]
+         },
+         {
+            "_index": "joe.broker.com",
+            "_type": "documents",
+            "_id": "Camargue Directors and Officers Quote Request Form for SME'sjoe@broker.com6aac21a0-01bd-491c-982c-f88bc2ffb107.1",
+            "_score": null,
+            "_source": {
+               "objectTypeName": "QuoteRequestForm",
+               "objectTypeStatus": "draft",
+               "objectType": "JsonDocument",
+               "viewType": "form",
+               "id": "Camargue Directors and Officers Quote Request Form for SME'sjoe@broker.com6aac21a0-01bd-491c-982c-f88bc2ffb107.1",
+               "lastModifiedDateTime": "2014-08-21T12:35:14",
+               "dateTimeCreated": "2014-08-21T12:35:14",
+               "createdBy": "joe@broker.com",
+               "updatedBy": "joe@broker.com",
+               "version": 1,
+               "title": "Camargue Directors and Officers Quote Request Form for SME's",
+               "docType": "People",
+               "path": "joe.broker.com/Home/Drafts",
+               "referencedEntities": [],
+               "category": [],
+               "versionSeriesId": "Camargue Directors and Officers Quote Request Form for SME'sjoe@broker.com6aac21a0-01bd-491c-982c-f88bc2ffb107",
+               "dateCreated": "2014-08-21",
+               "timeCreated": "12:35:14",
+               "lastModifiedDate": "2014-08-21",
+               "lastModifiedTime": "12:35:14",
+               "isLatestVersion": true
+            },
+            "sort": [
+               1408624514000
+            ]
+         },
+         {
+            "_index": "joe.broker.com",
+            "_type": "documents",
+            "_id": "Test User Save For Updatejoe@broker.com0807e517-5521-428f-9af6-fb430efdd9e5.1",
+            "_score": null,
+            "_source": {
+               "docType": "Video",
+               "path": "joe.broker.com/Home/Drafts",
+               "lastModifiedDateTime": "2014-08-20T17:12:08",
+               "lastModifiedDate": "2014-08-20",
+               "lastModifiedTime": "17:12:08",
+               "dateTimeCreated": "2014-08-20T17:12:08",
+               "dateCreated": "2014-08-20",
+               "timeCreated": "17:12:08",
+               "objectTypeName": 0,
+               "objectType": null,
+               "viewType": null,
+               "formType": null,
+               "id": "Test User Save For Updatejoe@broker.com0807e517-5521-428f-9af6-fb430efdd9e5.1",
+               "title": "Test User Save For Update",
+               "version": 1,
+               "updatedBy": "joe@broker.com",
+               "createdBy": "joe@broker.com",
+               "referencesEntities": null,
+               "category": null,
+               "documentType": null,
+               "deletedYN": false,
+               "objectTypeStatus": "draft",
+               "workFlowTrace": null,
+               "versionSeriesId": "Test User Save For Updatejoe@broker.com0807e517-5521-428f-9af6-fb430efdd9e5",
+               "isLatestVersion": true
+            },
+            "sort": [
+               1408554728000
+            ]
+         },
+         {
+            "_index": "joe.broker.com",
+            "_type": "documents",
+            "_id": "Test User Save For Updatejoe@broker.com64b496a9-861b-4e28-8b88-3f13f4abe2c1.2",
+            "_score": null,
+            "_source": {
+               "docType": "Form",
+               "path": "joe.broker.com/Home/Drafts",
+               "lastModifiedDateTime": "2014-08-19T12:04:36",
+               "lastModifiedDate": "2014-08-19",
+               "lastModifiedTime": "12:04:36",
+               "dateTimeCreated": "2014-08-19T12:04:35",
+               "dateCreated": "2014-08-19",
+               "timeCreated": "12:04:36",
+               "objectTypeName": 0,
+               "objectType": null,
+               "viewType": null,
+               "formType": null,
+               "id": "Test User Save For Updatejoe@broker.com64b496a9-861b-4e28-8b88-3f13f4abe2c1.2",
+               "title": "Test User Save For Update",
+               "version": 2,
+               "updatedBy": "joe@broker.com",
+               "createdBy": "joe@broker.com",
+               "referencesEntities": null,
+               "category": null,
+               "documentType": null,
+               "deletedYN": false,
+               "objectTypeStatus": "draft",
+               "workFlowTrace": null,
+               "versionSeriesId": "Test User Save For Updatejoe@broker.com64b496a9-861b-4e28-8b88-3f13f4abe2c1",
+               "isLatestVersion": true
+            },
+            "sort": [
+               1408449875000
+            ]
+         },
+         {
+            "_index": "joe.broker.com",
+            "_type": "documents",
+            "_id": "WorkflowUnitTest SaveDraft Testjoe@broker.com639bb4e3-e319-4564-896b-c6eb69160aa7.1",
+            "_score": null,
+            "_source": {
+               "docType": "Form",
+               "path": "joe.broker.com/Home/Drafts",
+               "lastModifiedDate": "2014-08-19",
+               "dataTimeCreated": null,
+               "objectTypeName": 0,
+               "objectType": "JsonDocument",
+               "viewType": "form",
+               "formType": null,
+               "id": "WorkflowUnitTest SaveDraft Testjoe@broker.com639bb4e3-e319-4564-896b-c6eb69160aa7.1",
+               "title": "WorkflowUnitTest SaveDraft Test",
+               "version": 1,
+               "updatedBy": "joe@broker.com",
+               "createdBy": "joe@broker.com",
+               "referencesEntities": null,
+               "category": [],
+               "documentType": null,
+               "deletedYN": false,
+               "workFlowTrace": [
+                  {
+                     "workFlowId": "joe@broker.com9cbfb09a-6578-485e-98be-cd3db6119267.1",
+                     "workFlowStatus": 1
+                  }
+               ],
+               "dateTimeCreated": "2014-08-19T11:36:18",
+               "lastModifiedDateTime": "2014-08-19T11:36:18",
+               "dateCreated": "2014-08-19",
+               "timeCreated": "11:36:18",
+               "lastModifiedTime": "11:36:18",
+               "objectTypeStatus": "draft",
+               "versionSeriesId": "WorkflowUnitTest SaveDraft Testjoe@broker.com639bb4e3-e319-4564-896b-c6eb69160aa7",
+               "isLatestVersion": true
+            },
+            "sort": [
+               1408448178000
+            ]
+         },
+         {
+            "_index": "joe.broker.com",
+            "_type": "documents",
+            "_id": "Camargue Directors and Officers Quote Request Form for SME'sjoe@broker.comf726307c-b9c6-4c87-a34c-ea4cabc31dc3.2",
+            "_score": null,
+            "_source": {
+               "objectTypeName": "QuoteRequestForm",
+               "objectTypeStatus": "draft",
+               "objectType": "JsonDocument",
+               "viewType": "form",
+               "id": "Camargue Directors and Officers Quote Request Form for SME'sjoe@broker.comf726307c-b9c6-4c87-a34c-ea4cabc31dc3.2",
+               "lastModifiedDateTime": "2014-08-19T15:37:11",
+               "dateTimeCreated": "2014-08-19T11:19:14",
+               "createdBy": "joe@broker.com",
+               "updatedBy": "joe@broker.com",
+               "version": 2,
+               "title": "Camargue Directors and Officers Quote Request Form for SME's",
+               "docType": "People",
+               "path": "joe.broker.com/Home/Drafts",
+               "referencedEntities": [],
+               "category": [],
+               "versionSeriesId": "Camargue Directors and Officers Quote Request Form for SME'sjoe@broker.comf726307c-b9c6-4c87-a34c-ea4cabc31dc3",
+               "dateCreated": "2014-08-19",
+               "timeCreated": "15:37:11",
+               "lastModifiedDate": "2014-08-19",
+               "lastModifiedTime": "15:37:11",
+               "isLatestVersion": true
+            },
+            "sort": [
+               1408447154000
+            ]
+         },
+         {
+            "_index": "joe.broker.com",
+            "_type": "documents",
+            "_id": "Test User Save For Updatejoe@broker.com2a45e681-a151-46bb-b79f-1279e8a386a5.2",
+            "_score": null,
+            "_source": {
+               "docType": "Quote Request",
+               "path": "joe.broker.com/Home/Drafts",
+               "lastModifiedDateTime": "2014-08-19T11:08:42",
+               "lastModifiedDate": "2014-08-19",
+               "lastModifiedTime": "11:08:42",
+               "dateTimeCreated": "2014-08-19T11:08:41",
+               "dateCreated": "2014-08-19",
+               "timeCreated": "11:08:42",
+               "objectTypeName": 0,
+               "objectType": null,
+               "viewType": null,
+               "formType": null,
+               "id": "Test User Save For Updatejoe@broker.com2a45e681-a151-46bb-b79f-1279e8a386a5.2",
+               "title": "Test User Save For Update",
+               "version": 2,
+               "updatedBy": "joe@broker.com",
+               "createdBy": "joe@broker.com",
+               "referencesEntities": null,
+               "category": null,
+               "documentType": null,
+               "deletedYN": false,
+               "objectTypeStatus": "draft",
+               "workFlowTrace": null,
+               "versionSeriesId": "Test User Save For Updatejoe@broker.com2a45e681-a151-46bb-b79f-1279e8a386a5",
+               "isLatestVersion": true
+            },
+            "sort": [
+               1408446521000
+            ]
+         },
+         {
+            "_index": "joe.broker.com",
+            "_type": "documents",
+            "_id": "WorkflowUnitTest SaveDraft Testjoe@broker.come3fd50dd-1675-4370-b940-a87959d6c579.1",
+            "_score": null,
+            "_source": {
+               "docType": "Video",
+               "path": "joe.broker.com/Home/Drafts",
+               "lastModifiedDate": "2014-08-18",
+               "dataTimeCreated": null,
+               "objectTypeName": 0,
+               "objectType": "JsonDocument",
+               "viewType": "form",
+               "formType": null,
+               "id": "WorkflowUnitTest SaveDraft Testjoe@broker.come3fd50dd-1675-4370-b940-a87959d6c579.1",
+               "title": "WorkflowUnitTest SaveDraft Test",
+               "version": 1,
+               "updatedBy": "joe@broker.com",
+               "createdBy": "joe@broker.com",
+               "referencesEntities": null,
+               "category": [],
+               "documentType": null,
+               "deletedYN": false,
+               "workFlowTrace": [
+                  {
+                     "workFlowId": "joe@broker.com9cbfb09a-6578-485e-98be-cd3db6119267.1",
+                     "workFlowStatus": 1
+                  }
+               ],
+               "dateTimeCreated": "2014-08-18T14:30:40",
+               "lastModifiedDateTime": "2014-08-18T14:30:40",
+               "dateCreated": "2014-08-18",
+               "timeCreated": "14:30:40",
+               "lastModifiedTime": "14:30:40",
+               "objectTypeStatus": "draft",
+               "versionSeriesId": "WorkflowUnitTest SaveDraft Testjoe@broker.come3fd50dd-1675-4370-b940-a87959d6c579",
+               "isLatestVersion": true
+            },
+            "sort": [
+               1408372240000
+            ]
+         }
+      ]
+   }
+}
